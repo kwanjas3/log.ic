@@ -1,0 +1,43 @@
+Game Dedicated to introducing basic concepts of programming to kids.
+On a grid based system I want to design an escape the maze style game that uses fundamental programming concepts and logic.
+Using C semantics without using C syntax.
+
+Goals of the Game: simultaneously save each chapter as usable Functions
+At the end of the game:
+  1. player will understand variables.
+  2. player will understand functions and code blocks
+  3. player will understand basic logic concepts
+    Boolean, mathematics, iterative
+  4. game will introduce true/false.
+    Tutorial will hint right in the beginning on unintuitive ways of expressing boolean values
+    !(>=, <=, ==, >, <) || and &&
+  
+  5. game will introduce math.
+  6. game will introduce if else if
+  7. Loop statements
+    While, do while, for
+    counters
+    
+    // if time permits I want to expand on a maze creator similar to mario maker to let kids design levels.
+
+
+Declaring Variables and Types
+-	With respect to the game, main function will be the player
+-	start with declaring movement, with movement aka (move right, 10 times)
+Tutorial level:
+1.	Name your minion: simulates a function program
+	//have the game function with simple arguments: 
+2.	lets move our minion up 3 spaces:
+	Player.MoveUp(3);
+	//lets have the minion pickup quest item
+	Player.PickUp(Right);
+	//player finds a tutorial fairy we should find the exit
+	Player.MoveLeft(3);
+	Player.MoveUp(3);
+	Player.Use(Item);
+  Item.Open(object);
+
+Done.
+
+	
+
